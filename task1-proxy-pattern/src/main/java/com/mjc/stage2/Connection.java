@@ -1,10 +1,8 @@
 package com.mjc.stage2;
 
-import java.sql.SQLException;
-
 public interface Connection {
 
-     void close() throws SQLException;
+    void close();
 
-     boolean isClosed() throws SQLException;
+    boolean isClosed();
 }
